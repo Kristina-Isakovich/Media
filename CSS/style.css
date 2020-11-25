@@ -71,10 +71,7 @@
 
 /* FEATURE */
 .feature{
-    min-height: 850px;
-    display: flex;
     padding: 30px 170px;
-    flex-flow: column wrap;
 }
 
 .feature-title{
