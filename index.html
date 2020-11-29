@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
+
+<header class="home-page">
+    <!--<picture class="home-page__bcg">
+        <source srcset="./img/home-mobile.png" media='(max-width: 480px)'>
+        <img src="./img/home.png" alt="picture" width="1440" height="652">
+    </picture>-->
+
+  <div class="home-page-header">
+    <div class="home-page-nav">
+        <a class="home-page-nav-item" href="#"><img src="./img/logo.png" alt="logo" height="59" width="186"></a>
+        <a class="home-page-nav-item" href="#">Home</a>
+        <a class="home-page-nav-item" href="#">Shop</a>
+        <a class="home-page-nav-item" href="#">Account</a>
+        <a class="home-page-nav-item" href="#">Pages</a>
+        <a class="home-page-nav-item" href="#">Blog</a>
+        <a class="home-page-nav-item" href="#">Docs / Components</a>
+    </div>
+
+    <div class="home-page-user">
+        <a class="home-page-user-item home-page-user-account">
+           <div class="home-page-user--img home-page-user-decor"><img src="./img/user.png" alt="User"></div>
+           My Account
+        </a>
+
+        <a class="home-page-user-item"><img src="./img/like.png" alt="Like" width="29" height="25"></a>
+        <a class="home-page-user-item home-page-user-decor"><img class="home-page-basket" src="./img/basket.png"
+                                                                 alt="Basket"></a>
+    </div>
+  </div>
+    
+   <div class="home-page-header--mobile">
+       <a class="home-page-header--mobile-logo" href="#"><img src="./img/logo.png" alt="logo" height="59" width="186"></a>
+       
+       <div class="mobile-user">
+           <a class="mobile-basket home-page-user-decor"><img class="home-page-basket" src="./img/basket.png"
+                                                                    alt="Basket"></a>
+           <button class="mobile-user-btn"><img src="./img/menu-mobile.png" alt="menu"></button>
+           <div class="mobile-menu">
+               <a class="mobile-menu-item" href="#">My Account</a>
+               <a class="mobile-menu-item" href="#">Home</a>
+               <a class="mobile-menu-item" href="#">Shop</a>
+               <a class="mobile-menu-item" href="#">Account</a>
+               <a class="mobile-menu-item" href="#">Pages</a>
+               <a class="mobile-menu-item" href="#">Blog</a>
+               <a class="mobile-menu-item" href="#">Docs / Components</a>
+           </div>
+       </div>
+   </div>
+
+  <div class="home-page-content">
+    <p class="home-page-content-topic">SUMMER 2020</p>
+    <h1 class="home-page-content-title">New Collection</h1>
+    <p class="home-page-content-text">Find The Perfect style for you </p>
+  </div>
+
+  <button class="home-page-btn">Shop Now</button>
+</header>
 
   <section class="products grid">
     <div class="product-item" style="background-image: url(./img/product_1.png)">
@@ -40,111 +99,98 @@
     </div>
 
   <div class="feature-cases grid">
-
     <div class="feature-case">
-
       <img class="feature-case-img" src="./img/Picture_1.png" alt="clothes"/>
-
       <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
 
       <div class="feature-case-content grid">
         <div class="feature-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
         <div class="feature-case-price">$32.00</div>
 
         <div class="case-colors">
-            <button class="color color-blue"></button>
-            <button class="color color-green"></button>
-            <button class="color color-orange"></button>
-            <button class="color color-black"></button>
+            <button class="btn-color color-blue"></button>
+            <button class="btn-color color-green"></button>
+            <button class="btn-color color-orange"></button>
+            <button class="btn-color color-black"></button>
         </div>
 
         <div class="case-sizes">
-            <button class="size">XL</button>
-            <button class="size">L</button>
-            <button class="size">M</button>
-            <button class="size">S</button>
+            <button class="btn-size">XL</button>
+            <button class="btn-size">L</button>
+            <button class="btn-size">M</button>
+            <button class="btn-size">S</button>
         </div>
       </div>
     </div>
 
       <div class="feature-case">
-
           <img class="feature-case-img" src="./img/Picture_2.png" alt="clothes"/>
-
           <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
 
           <div class="feature-case-content grid">
               <div class="feature-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
               <div class="feature-case-price">$32.00</div>
 
               <div class="case-colors">
-                  <button class="color color-blue"></button>
-                  <button class="color color-green"></button>
-                  <button class="color color-orange"></button>
-                  <button class="color color-black"></button>
+                  <button class="btn-color color-blue"></button>
+                  <button class="btn-color color-green"></button>
+                  <button class="btn-color color-orange"></button>
+                  <button class="btn-color color-black"></button>
               </div>
 
               <div class="case-sizes">
-                  <button class="size">XL</button>
-                  <button class="size">L</button>
-                  <button class="size">M</button>
-                  <button class="size">S</button>
+                  <button class="btn-size">XL</button>
+                  <button class="btn-size">L</button>
+                  <button class="btn-size">M</button>
+                  <button class="btn-size">S</button>
               </div>
           </div>
       </div>
 
       <div class="feature-case">
-
           <img class="feature-case-img" src="./img/Picture_3.png" alt="clothes"/>
-
           <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
 
           <div class="feature-case-content grid">
               <div class="feature-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
               <div class="feature-case-price">$32.00</div>
 
               <div class="case-colors">
-                  <button class="color color-blue"></button>
-                  <button class="color color-green"></button>
-                  <button class="color color-orange"></button>
-                  <button class="color color-black"></button>
+                  <button class="btn-color color-blue"></button>
+                  <button class="btn-color color-green"></button>
+                  <button class="btn-color color-orange"></button>
+                  <button class="btn-color color-black"></button>
               </div>
 
               <div class="case-sizes">
-                  <button class="size">XL</button>
-                  <button class="size">L</button>
-                  <button class="size">M</button>
-                  <button class="size">S</button>
+                  <button class="btn-size">XL</button>
+                  <button class="btn-size">L</button>
+                  <button class="btn-size">M</button>
+                  <button class="btn-size">S</button>
               </div>
           </div>
       </div>
 
       <div class="feature-case">
-
           <img class="feature-case-img" src="./img/Picture_4.png" alt="clothes"/>
-
           <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
 
           <div class="feature-case-content grid">
               <div class="feature-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
               <div class="feature-case-price">$32.00</div>
 
               <div class="case-colors">
-                  <button class="color color-blue"></button>
-                  <button class="color color-green"></button>
-                  <button class="color color-orange"></button>
-                  <button class="color color-black"></button>
+                  <button class="btn-color color-blue"></button>
+                  <button class="btn-color color-green"></button>
+                  <button class="btn-color color-orange"></button>
+                  <button class="btn-color color-black"></button>
               </div>
 
               <div class="case-sizes">
-                  <button class="size">XL</button>
-                  <button class="size">L</button>
-                  <button class="size">M</button>
-                  <button class="size">S</button>
+                  <button class="btn-size">XL</button>
+                  <button class="btn-size">L</button>
+                  <button class="btn-size">M</button>
+                  <button class="btn-size">S</button>
               </div>
           </div>
       </div>
@@ -158,137 +204,113 @@
 
         <div class="latest-case">
             <img class="latest-case-img" src="./img/latest_1.png" alt="clothes"/>
-
             <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
-
             <div class="latest-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
             <div class="latest-case-price">$32.00</div>
 
             <div class="case-sizes">
-               <button class="size">XL</button>
-               <button class="size">L</button>
-               <button class="size">M</button>
-               <button class="size">S</button>
+               <button class="btn-size">XL</button>
+               <button class="btn-size">L</button>
+               <button class="btn-size">M</button>
+               <button class="btn-size">S</button>
             </div>
         </div>
 
         <div class="latest-case">
             <img class="latest-case-img" src="./img/latest_2.png" alt="clothes"/>
-
             <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
-
             <div class="latest-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
             <div class="latest-case-price">$32.00</div>
 
             <div class="case-sizes">
-                <button class="size">XL</button>
-                <button class="size">L</button>
-                <button class="size">M</button>
-                <button class="size">S</button>
+                <button class="btn-size">XL</button>
+                <button class="btn-size">L</button>
+                <button class="btn-size">M</button>
+                <button class="btn-size">S</button>
             </div>
         </div>
 
         <div class="latest-case">
             <img class="latest-case-img" src="./img/latest_3.png" alt="clothes"/>
-
             <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
-
             <div class="latest-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
             <div class="latest-case-price">$32.00</div>
 
             <div class="case-sizes">
-                <button class="size">XL</button>
-                <button class="size">L</button>
-                <button class="size">M</button>
-                <button class="size">S</button>
+                <button class="btn-size">XL</button>
+                <button class="btn-size">L</button>
+                <button class="btn-size">M</button>
+                <button class="btn-size">S</button>
             </div>
         </div>
 
         <div class="latest-case">
             <img class="latest-case-img" src="./img/latest_4.png" alt="clothes"/>
-
             <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
-
             <div class="latest-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
             <div class="latest-case-price">$32.00</div>
 
             <div class="case-sizes">
-                <button class="size">XL</button>
-                <button class="size">L</button>
-                <button class="size">M</button>
-                <button class="size">S</button>
+                <button class="btn-size">XL</button>
+                <button class="btn-size">L</button>
+                <button class="btn-size">M</button>
+                <button class="btn-size">S</button>
             </div>
         </div>
 
         <div class="latest-case">
             <img class="latest-case-img" src="./img/latest_5.png" alt="clothes"/>
-
             <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
-
             <div class="latest-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
             <div class="latest-case-price">$32.00</div>
 
             <div class="case-sizes">
-                <button class="size">XL</button>
-                <button class="size">L</button>
-                <button class="size">M</button>
-                <button class="size">S</button>
+                <button class="btn-size">XL</button>
+                <button class="btn-size">L</button>
+                <button class="btn-size">M</button>
+                <button class="btn-size">S</button>
             </div>
         </div>
 
         <div class="latest-case">
             <img class="latest-case-img" src="./img/latest_6.png" alt="clothes"/>
-
             <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
-
             <div class="latest-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
             <div class="latest-case-price">$32.00</div>
 
             <div class="case-sizes">
-                <button class="size">XL</button>
-                <button class="size">L</button>
-                <button class="size">M</button>
-                <button class="size">S</button>
+                <button class="btn-size">XL</button>
+                <button class="btn-size">L</button>
+                <button class="btn-size">M</button>
+                <button class="btn-size">S</button>
             </div>
         </div>
 
         <div class="latest-case">
             <img class="latest-case-img" src="./img/latest_7.png" alt="clothes"/>
-
             <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
-
             <div class="latest-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
             <div class="latest-case-price">$32.00</div>
 
             <div class="case-sizes">
-                <button class="size">XL</button>
-                <button class="size">L</button>
-                <button class="size">M</button>
-                <button class="size">S</button>
+                <button class="btn-size">XL</button>
+                <button class="btn-size">L</button>
+                <button class="btn-size">M</button>
+                <button class="btn-size">S</button>
             </div>
         </div>
 
         <div class="latest-case">
             <img class="latest-case-img" src="./img/latest_8.png" alt="clothes"/>
-
             <input class="latest-case-like" type="image" src="./img/avatar.png" alt="like"/>
-
             <div class="latest-case-text">Men's Essential Tee <p class="text-g">(Black)</p></div>
-
             <div class="latest-case-price">$32.00</div>
 
             <div class="case-sizes">
-                <button class="size">XL</button>
-                <button class="size">L</button>
-                <button class="size">M</button>
-                <button class="size">S</button>
+                <button class="btn-size">XL</button>
+                <button class="btn-size">L</button>
+                <button class="btn-size">M</button>
+                <button class="btn-size">S</button>
             </div>
         </div>
     </div>
@@ -304,9 +326,7 @@
 
             <div class="our-blog-case grid">
               <p class="our-blog-case-date">20 JUNE 2019</p>
-
               <h3 class="our-blog-case-title">Life Tips From Top Ten Adventure</h3>
-
               <p class="our-blog-case-text">Slate helps you see how many more days you need to work to reach.</p>
 
               <div class="our-blog-case-site grid">
@@ -322,9 +342,7 @@
 
               <div class="our-blog-case grid">
                   <p class="our-blog-case-date">20 JUNE 2019</p>
-
                   <h3 class="our-blog-case-title">Life Tips From Top Ten Adventure</h3>
-
                   <p class="our-blog-case-text">Slate helps you see how many more days you need to work to reach.</p>
 
                   <div class="our-blog-case-site grid">
@@ -340,9 +358,7 @@
 
               <div class="our-blog-case grid">
                   <p class="our-blog-case-date">20 JUNE 2019</p>
-
                   <h3 class="our-blog-case-title">Life Tips From Top Ten Adventure</h3>
-
                   <p class="our-blog-case-text">Slate helps you see how many more days you need to work to reach.</p>
 
                   <div class="our-blog-case-site grid">
@@ -355,8 +371,53 @@
       </div>
   </section>
 
+  <section class="carousel">
+      <h2 class="carousel-title">Shop on Instagram</h2>
 
+      <div class="carousel-cases grid">
+          <figure class="carousel-case">
+              <img class="carousel-case--img" src="./img/Frame%2038.png" alt="Summer">
+              <figcaption class="carousel-case-name">Summer</figcaption>
+          </figure>
 
+          <figure class="carousel-case">
+              <img class="carousel-case--img" src="./img/Frame%2039.png" alt="Bags">
+              <figcaption class="carousel-case-name">Bags</figcaption>
+          </figure>
+
+          <figure class="carousel-case">
+              <img class="carousel-case--img" src="./img/Frame%2040.png" alt="Hats">
+              <figcaption class="carousel-case-name">Hats</figcaption>
+          </figure>
+      </div>
+
+      <div class="carousel-arrows">
+          <button class="carousel-arrow-btn">‹</button>
+          <div class="carousel-arrow-indicators">
+            <div class="carousel-arrow-indicator"></div>
+            <div class="carousel-arrow-indicator"></div>
+            <div class="carousel-arrow-indicator"></div>
+          </div>
+          <button class="carousel-arrow-btn">›</button>
+      </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-nav">
+        <a class="footer-nav-item" href="#"><img src="./img/logo.png" alt="logo" height="59" width="186"></a>
+        <a class="footer-nav-item" href="#">Home</a>
+        <a class="footer-nav-item" href="#">Shop</a>
+        <a class="footer-nav-item" href="#">Account</a>
+        <a class="footer-nav-item" href="#">Pages</a>
+        <a class="footer-nav-item" href="#">Docs / Components</a>
+    </div>
+
+    <div class="footer-socials">
+        <a class="footer-social" href="#"><img src="./img/social_1.png" alt="twitter"></a>
+        <a class="footer-social" href="#"><img src="./img/social_2.png" alt="facebook"></a>
+        <a class="footer-social" href="#"><img src="./img/social_3.png" alt="ionic"></a>
+    </div>
+</footer>
 
 </body>
 </html>

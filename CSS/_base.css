@@ -1,34 +1,40 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 :root{
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 }
 
 ul{
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 img{
-    display: block;
+  display: block;
 }
 
 a{
-    text-decoration: none;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 button{
-    padding: 0;
-    border: none;
-    font: inherit;
-    background-color: transparent;
-    cursor: pointer;
+  padding: 0;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:active{
+  border: none;
 }
 
 .grid{
-    display: grid;
+  display: grid;
 }
