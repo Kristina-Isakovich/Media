@@ -25,16 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a9ae25-a302-415f-9baf-d3b56805fff7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/Carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="16a9ae25-a302-415f-9baf-d3b56805fff7" name="Default Changelist" comment="Addition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/_base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/_media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/_vars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="branch_products" />
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +53,6 @@
   <component name="ProjectId" id="1k44Ozp0zgGr86hgQwfVthM3QvH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -95,8 +86,20 @@
       <workItem from="1606038878903" duration="53118000" />
       <workItem from="1606578966995" duration="19449000" />
       <workItem from="1606649506003" duration="1074000" />
-      <workItem from="1606650651191" duration="19061000" />
+      <workItem from="1606650651191" duration="21110000" />
+      <workItem from="1611069720347" duration="4989000" />
+      <workItem from="1611133965637" duration="1478000" />
+      <workItem from="1614886513620" duration="605000" />
+      <workItem from="1620071883580" duration="14980000" />
     </task>
+    <task id="LOCAL-00001" summary="Addition">
+      <created>1620141256991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620141256991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,42 +129,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="395" y="91" key="#Inspections" timestamp="1606654341324">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1606654341324" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606580158117">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606580158117" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606669249203">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606669249203" />
-    <state x="147" y="65" key="MergeDialog" timestamp="1606318418230">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1606318418230" />
-    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1606318426579">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1606318426579" />
-    <state x="517" y="56" key="SettingsEditor" timestamp="1605905703771">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="517" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605905703771" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1605900914171">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1605900914171" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606669863896">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1606669863896" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605901838406">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605901838406" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Addition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addition" />
   </component>
 </project>
