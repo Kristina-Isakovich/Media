@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
 
 <header class="home-page">
-    <!--<picture class="home-page__bcg">
-        <source srcset="./img/home-mobile.png" media='(max-width: 480px)'>
-        <img src="./img/home.png" alt="picture" width="1440" height="652">
-    </picture>-->
-
   <div class="home-page-header">
     <div class="home-page-nav">
-        <a class="home-page-nav-item" href="#"><img src="./img/logo.png" alt="logo" height="59" width="186"></a>
+        <a class="home-page-nav-item home-page-nav_logo" href="#">
+          <img src="img/figma_1.svg" alt="logo" height="59">
+        </a>
+        <a class="home-page-nav-item" href="#">
+          <img src="./img/logo.png" alt="logo" height="59" width="186">
+        </a>
         <a class="home-page-nav-item" href="#">Home</a>
         <a class="home-page-nav-item" href="#">Shop</a>
         <a class="home-page-nav-item" href="#">Account</a>
@@ -28,23 +28,30 @@
 
     <div class="home-page-user">
         <a class="home-page-user-item home-page-user-account">
-           <div class="home-page-user--img home-page-user-decor"><img src="./img/user.png" alt="User"></div>
-           My Account
+           <div class="home-page-user_photo home-page-user-decor">
+             <img src="./img/user.png" alt="User">
+           </div>
+          <span>My Account</span>
         </a>
-
-        <a class="home-page-user-item"><img src="./img/like.png" alt="Like" width="29" height="25"></a>
-        <a class="home-page-user-item home-page-user-decor"><img class="home-page-basket" src="./img/basket.png"
-                                                                 alt="Basket"></a>
+        <a class="home-page-user-item">
+          <img src="./img/like.png" alt="Like" width="29" height="25">
+        </a>
+        <a class="home-page-user-item home-page-user-decor">
+          <img class="home-page-basket" src="./img/basket.png" alt="Basket">
+        </a>
     </div>
   </div>
-    
+
    <div class="home-page-header--mobile">
        <a class="home-page-header--mobile-logo" href="#"><img src="./img/logo.png" alt="logo" height="59" width="186"></a>
-       
+
        <div class="mobile-user">
-           <a class="mobile-basket home-page-user-decor"><img class="home-page-basket" src="./img/basket.png"
-                                                                    alt="Basket"></a>
-           <button class="mobile-user-btn"><img src="./img/menu-mobile.png" alt="menu"></button>
+           <a class="mobile-basket home-page-user-decor">
+             <img class="home-page-basket" src="./img/basket.png" alt="Basket">
+           </a>
+           <button class="mobile-user-btn">
+             <img src="./img/menu-mobile.png" alt="menu">
+           </button>
            <div class="mobile-menu">
                <a class="mobile-menu-item" href="#">My Account</a>
                <a class="mobile-menu-item" href="#">Home</a>
@@ -60,7 +67,7 @@
   <div class="home-page-content">
     <p class="home-page-content-topic">SUMMER 2020</p>
     <h1 class="home-page-content-title">New Collection</h1>
-    <p class="home-page-content-text">Find The Perfect style for you </p>
+    <p class="home-page-content-text">Find The Perfect style for you</p>
   </div>
 
   <button class="home-page-btn">Shop Now</button>

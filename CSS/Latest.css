@@ -1,0 +1,33 @@
+.latest{
+    min-height: 950px;
+    padding: 80px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-title{
+    margin-bottom: 60px;
+}
+
+.latest-cases{
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-gap: 40px 50px;
+    justify-items: center;
+}
+
+.latest-case{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 10px;
+    position: relative;
+}
+
+.latest-case-text{
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.latest-case-price{
+    line-height: 28px;
+}
