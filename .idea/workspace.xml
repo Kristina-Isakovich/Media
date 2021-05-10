@@ -58,6 +58,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -90,7 +91,8 @@
       <workItem from="1611069720347" duration="4989000" />
       <workItem from="1611133965637" duration="1478000" />
       <workItem from="1614886513620" duration="605000" />
-      <workItem from="1620071883580" duration="14980000" />
+      <workItem from="1620071883580" duration="15377000" />
+      <workItem from="1620142035381" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="Addition">
       <created>1620141256991</created>
@@ -99,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620141256991</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Addition">
+      <created>1620141621437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620141621437</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
