@@ -1,0 +1,88 @@
+.our-blog {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 150px;
+  background-color: $light;
+  @media (max-width: $md2+px) {
+    padding: 30px 15px;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+    @media (max-width: $md3+px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__cases {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
+    @media (max-width: $md2+px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    display: grid;
+    box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__case {
+  display: grid;
+  padding: 25px;
+  background-color: $white;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fill, auto);
+  row-gap: 15px;
+
+  &__date {
+    text-transform: uppercase;
+    color: $light-accent;
+    @media (max-width: $md4+px) {
+      font-size: 14px;
+    }
+  }
+
+  &__title {
+    font-size: 24px;
+    @media (max-width: $md4+px) {
+        font-size: 22px;
+    }
+  }
+
+  &__text {
+    color: $light-accent;
+    @media (max-width: $md4+px) {
+      font-size: 14px;
+    }
+  }
+
+  &__site {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 16px;
+    line-height: 24px;
+    justify-content: start;
+    @media (max-width: $md4+px) {
+      font-size: 14px;
+    }
+
+    & > a {
+      color: $accent;
+
+      &:hover {
+        text-decoration: underline;
+        color: $accent;
+      }
+    }
+  }
+}

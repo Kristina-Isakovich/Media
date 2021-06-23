@@ -1,0 +1,113 @@
+a {
+  display: block;
+  cursor: pointer;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+
+  &:active {
+    border: none;
+  }
+}
+
+.grid {
+  display: grid;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.like {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 9px;
+  right: 7px;
+  border-radius: 50%;
+  background: rgba(232, 232, 232, 0.46);
+
+  &::before {
+    color: $white;
+    transition: color .3s ease 0s;
+  }
+
+  @media (any-hover: hover) {
+    &:hover::before {
+      color: $accent;
+    }
+  }
+}
+
+.case-sizes {
+  display: flex;
+
+  & .btn-size {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    height: 29px;
+    width: 34px;
+    border: 1px solid #E4E4E4;
+    background-color: transparent;
+    @media (max-width: $md4+px) {
+      font-size: 12px;
+      height: 27px;
+      width: 32px;
+    }
+  }
+
+  & .btn-size {
+    transition: border .3s ease 0s;
+    &:not(:last-child) {
+      margin-right: 14px;
+    }
+
+    &:hover {
+      border: 2px solid $accent;
+    }
+  }
+}
+
+
+@media (max-width: 1150px) {
+  .products, .feature, .latest, .our-blog, .carousel {
+    padding: 50px 60px;
+  }
+}
+
+@media (max-width: 740px) {
+  .carousel {
+    padding: 50px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .latest, .carousel {
+    padding: 40px 16px;
+  }
+
+  .carousel-cases {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel-cases > .carousel-case:not(:first-child) {
+    display: none;
+  }
+}
+
+

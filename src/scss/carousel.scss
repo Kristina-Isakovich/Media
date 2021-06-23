@@ -1,5 +1,5 @@
 .carousel{
-    background-color: var(--bcg-dark);
+    background-color: $bcg-dark;
     padding: 50px 150px;
 }
 
@@ -8,7 +8,7 @@
     line-height: 57px;
     text-align: center;
     margin-bottom: 70px;
-    color: var(--white);
+    color: $white;
 }
 
 .carousel-cases{
@@ -37,14 +37,14 @@
     border: 2px solid #FFFFFF;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.2);
-    color: var(--white);
+    color: $white;
     cursor: pointer;
 }
 
 .carousel-case-name:hover{
     transition: .5s;
-    color: var(--accent);
-    border: 2px solid var(--accent);
+    color: $accent;
+    border: 2px solid $accent;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -57,7 +57,7 @@
 .carousel-arrow-btn{
     width: 41px;
     height: 41px;
-    color: var(--white);
+    color: $white;
     background-color: rgba(222, 222, 222, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 50%;
@@ -65,9 +65,9 @@
 
 .carousel-arrow-btn:hover{
     transition: .5s;
-    color: var(--accent);
-    background-color: var(--white);
-    border: 1px solid var(--accent);
+    color: $accent;
+    background-color: $white;
+    border: 1px solid $accent;
 }
 
 .carousel-arrow-indicators{
@@ -89,5 +89,5 @@
 }
 
 .carousel-arrow-indicator:hover{
-    background-color: var(--accent);
+    background-color: $accent;
 }
