@@ -1,35 +1,79 @@
-.carousel{
-    background-color: $bcg-dark;
-    padding: 50px 150px;
-}
+.carousel {
+  display: flex;
+  flex-direction: column;
+  background-color: $bcg-dark;
+  padding: 50px 150px;
+  align-items: center;
+  justify-items: center;
+  @media (max-width: $md2+px) {
+    padding: 50px 30px;
+  }
 
-.carousel-title{
+  &__title {
     font-size: 40px;
-    line-height: 57px;
-    text-align: center;
     margin-bottom: 70px;
     color: $white;
-}
+    @media (max-width: $md2+px) {
+      font-size: 35px;
+      margin-bottom: 50px;
+    }
+    @media (max-width: $md3+px) {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    @media (max-width: $md4+px) {
+      font-size: 26px;
+    }
+  }
 
-.carousel-cases{
+  &__cases {
+    display: flex;
     max-height: 250px;
     overflow: hidden;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 30px;
-    justify-items: center;
     margin-bottom: 45px;
-}
+    @media (max-width: $md2+px) {
+      margin-bottom: 30px;
+    }
+  }
 
-.carousel-case{
+  &__case {
     height: inherit;
     position: relative;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    @media (max-width: $md2+px) {
+      &:last-child {
+        display: none;
+      }
+      &:nth-child(2) {
+        margin-right: 0;
+      }
+    }
+    @media (max-width: $md4+px) {
+      &:nth-child(2) {
+        display: none;
+      }
+      &:nth-child(1) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__arrows {
+    display: flex;
+    align-items: center;
+  }
 }
 
-.carousel-case--img{
+.carousel__case {
+  &__img {
     width: 100%;
-}
+  }
 
-.carousel-case-name{
+  &__name {
     position: absolute;
     top: 14px;
     left: 17px;
@@ -38,56 +82,68 @@
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.2);
     color: $white;
+    font-weight: 700;
     cursor: pointer;
+
+    &:hover {
+      transition: .5s;
+      color: $accent;
+      border: 2px solid $accent;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+  }
 }
 
-.carousel-case-name:hover{
-    transition: .5s;
-    color: $accent;
-    border: 2px solid $accent;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-.carousel-arrows{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.carousel-arrow-btn{
-    width: 41px;
-    height: 41px;
+.carousel__arrow {
+  &__btn {
+    position: relative;
+    width: 40px;
+    height: 40px;
     color: $white;
     background-color: rgba(222, 222, 222, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 50%;
+    transition: all .3s ease 0s;
+    @media (max-width: $md4+px) {
+      width: 35px;
+      height: 35px;
+    }
+
+    &:hover {
+      color: $accent;
+      background-color: $white;
+      border: 1px solid $accent;
+    }
+
+    &.arrow-right::before {
+      transform: rotate(-180deg);
+    }
+  }
 }
 
-.carousel-arrow-btn:hover{
-    transition: .5s;
-    color: $accent;
-    background-color: $white;
-    border: 1px solid $accent;
-}
+.indicators {
+  display: flex;
+  margin-right: 30px;
+  margin-left: 30px;
 
-.carousel-arrow-indicators{
-    display: flex;
-    margin-right: 30px;
-    margin-left: 30px;
-}
-
-.carousel-arrow-indicator{
+  &__item {
     width: 15px;
     height: 15px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     cursor: pointer;
-}
+    transition: background-color .3s ease 0s;
+    @media (max-width: $md4+px) {
+      width: 10px;
+      height: 10px;
+    }
 
-.carousel-arrow-indicator:not(:last-child){
-    margin-right: 5px;
-}
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
 
-.carousel-arrow-indicator:hover{
-    background-color: $accent;
+    &:hover {
+      background-color: $accent;
+    }
+  }
 }

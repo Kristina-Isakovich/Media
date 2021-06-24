@@ -98,7 +98,7 @@
   grid-template-columns: auto;
   grid-auto-flow: column;
   align-items: center;
-  @include adaptive-value("gap", 32, 15, 1);
+  @include adaptive-value("gap", 32, 15);
   @media (max-width: $md3+px) {
     margin-left: auto;
   }
@@ -121,7 +121,7 @@
     }
 
     &_like {
-      @include adaptive-value("font-size", 30, 25, 1);
+      @include adaptive-value("font-size", 30, 25);
     }
 
     @media (any-hover: hover) {
@@ -136,13 +136,13 @@
 
     & .icon {
       position: relative;
-      @include adaptive-value("font-size", 26, 18, 1);
+      @include adaptive-value("font-size", 26, 18);
       border-radius: 50%;
       background-color: rgba(232, 232, 232, 0.4);
       border: 2px solid $white;
       transition: border-color .3s ease 0s;
-      @include adaptive-value("width", 56, 46, 1);
-      @include adaptive-value("height", 56, 46, 1);
+      @include adaptive-value("width", 56, 46);
+      @include adaptive-value("height", 56, 46);
       @media (max-width: $md4+px) {
         width: 34px;
         height: 34px;
@@ -168,7 +168,7 @@
 .icon-menu {
   display: none;
   @media (max-width: $md3+px) {
-    @include adaptive-value('margin-left', 32, 15, 1);
+    @include adaptive-value('margin-left', 32, 15);
     background: transparent;
     display: block;
     position: relative;

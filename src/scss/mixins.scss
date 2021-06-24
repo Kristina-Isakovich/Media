@@ -8,12 +8,12 @@
   }
 }
 
-@mixin adaptive-value($property, $max-value, $mean, $min-value) {
+@mixin adaptive-value($property, $max-value, $min-value) {
   #{$property}: $max-value+px;
   @media (max-width: $md2+px) {
-    #{$property}: $mean+px;
+    #{$property}: $min-value+px;
   }
   @media (max-width: $md3+px) {
-    #{$property}: $mean+px;
+    #{$property}: $min-value+px;
   }
 }
